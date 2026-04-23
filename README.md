@@ -33,9 +33,9 @@ This project addresses that by applying **FFT-based spectral feature extraction*
 
 Each sample is transformed through the following steps:
 
-1. **Segment** — split each electrode's 512-point signal into two 1-second segments (256 points each)
-2. **FFT** — apply Fast Fourier Transform to each segment to obtain the power spectrum
-3. **Band Power Averaging** — compute mean power within five standard EEG frequency bands:
+1. **Segment**: Split each electrode's 512-point signal into two 1-second segments (256 points each)
+2. **FFT**: Apply Fast Fourier Transform to each segment to obtain the power spectrum
+3. **Band Power Averaging**: Compute mean power within five standard EEG frequency bands:
    - Delta (1–4 Hz)
    - Theta (4–8 Hz)
    - Alpha (8–13 Hz)
