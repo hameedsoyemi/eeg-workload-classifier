@@ -1,6 +1,6 @@
 # EEG Mental Workload Classification
 
-Developed and compared two machine learning approaches — a **from-scratch logistic regression** model and a **1D Convolutional Neural Network (CNN)** — to classify mental workload (high vs. low) from 62-channel EEG recordings.
+Developed and compared two machine learning approaches (a **from-scratch logistic regression** model and a **1D Convolutional Neural Network (CNN)**) to classify mental workload (high vs. low) from 62-channel EEG recordings.
 
 
 ---
