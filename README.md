@@ -2,6 +2,8 @@
 
 Developed and compared two machine learning approaches — a **from-scratch logistic regression** model and a **1D Convolutional Neural Network (CNN)** — to classify mental workload (high vs. low) from 62-channel EEG recordings.
 
+Built as part of the **CE889: Neural Networks and Deep Learning** module at the University of Essex.
+
 ---
 
 ## Overview
@@ -24,6 +26,7 @@ This project addresses that by applying **FFT-based spectral feature extraction*
 - **Sampling rate:** 256 Hz (2-second recordings)
 - **Labels:** Binary — 0 (low workload) / 1 (high workload)
 
+> **Note:** The dataset is not included in this repository due to academic usage restrictions.
 
 ---
 
@@ -76,12 +79,12 @@ Four CNN configurations were tested, varying filter counts (32/64 vs. 64/128), l
 ```
 eeg-workload-classification/
 │
-├── logistic_model.py          # Logistic regression classifier
+├── logistic_model.py          # From-scratch logistic regression classifier
 ├── deep_learning_model.py     # 1D CNN classifier (TensorFlow/Keras)
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
-└── WLDataCW.mat              
+└── WLDataCW.mat               # Dataset (not included — place here to run)
 ```
 
 ---
@@ -96,7 +99,7 @@ eeg-workload-classification/
 ### Installation
 
 ```bash
-git clone https://github.com/hameedsoyemi/eeg-workload-classification.git
+git clone https://github.com/<your-username>/eeg-workload-classification.git
 cd eeg-workload-classification
 pip install -r requirements.txt
 ```
@@ -147,7 +150,8 @@ Python · NumPy · SciPy · TensorFlow / Keras · FFT · Matplotlib
 
 ## Author
 
-**Hameed Soyemi**
+**Hameed**
+MSc Data Science — University of Essex
 
 ---
 
